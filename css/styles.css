@@ -1,0 +1,21 @@
+body {
+  background: #2B4162;
+}
+
+.horse {
+  background: url("https://pixabay.com/static/uploads/photo/2016/03/31/21/29/children-1296444_960_720.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  -webkit-animation: rock 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes rock {
+  30% { -webkit-transform: rotate(-10deg);}
+  50% { -webkit-transform: rotate(-17deg);}
+  70% { -webkit-transform: rotate(10deg);}
+  90% { -webkit-transform: rotate(17deg);}
+}
